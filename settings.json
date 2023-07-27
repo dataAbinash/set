@@ -1,0 +1,210 @@
+{
+	"terminal.integrated.defaultProfile.windows": "Command Prompt",
+	"terminal.explorerKind": "external",
+	"code-runner.saveFileBeforeRun": true,
+	"code-runner.saveAllFilesBeforeRun": true,
+	"code-runner.ignoreSelection": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.suggest.preview": true,
+	"editor.suggest.showStatusBar": true,
+	"editor.wordBasedSuggestionsMode": "allDocuments",
+	"files.autoGuessEncoding": true,
+	"window.dialogStyle": "custom",
+	"explorer.incrementalNaming": "smart",
+	"explorer.confirmDelete": false,
+	"oneDarkPro.vivid": true,
+	"workbench.startupEditor": "none",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+	"editor.smoothScrolling": true,
+	"liveServer.settings.useLocalIp": true,
+	"workbench.list.smoothScrolling": true,
+	"C_Cpp.intelliSenseEngineFallback": "enabled",
+	"C_Cpp.default.intelliSenseMode": "windows-gcc-x64",
+	"extensions.autoUpdate": false,
+	"workbench.colorCustomizations": {
+		"[One Dark Pro Darker]": {
+			"sideBar.border": "#282828",
+			"activityBar.border": "#282828",
+			"titleBar.border": "#282828",
+			"statusBar.border": "#282828",
+			"editor.background": "#0d1117",
+			//sidebar
+			"sideBar.background": "#0d1117",
+			"statusBar.background": "#161b22",
+			// "sideBar.dropBackground": "#111",
+			// activity bar
+			// "activityBar.activeBackground": "#181f2b",
+			"activityBar.activeBackground": "#111",
+			"activityBar.background": "#0d1117",
+			"activityBar.activeBorder": "#8866FF",
+			"editorGroupHeader.tabsBackground": "#0d1117",
+			// "editorGroupHeader.border": "#000000",
+			// "editorGroup.border": "#282828",
+			// tab
+			"tab.activeBackground": "#0d1117",
+			"tab.inactiveBackground": "#161b22",
+			//button-link
+			// "button.background": "#8866FF",
+			"titleBar.activeBackground": "#0d1117",
+			"button.foreground": "#fff",
+			"textLink.foreground": "#b547ff",
+			// Terminal
+			// "terminal.background": "#161b22",
+			"terminal.background": "#090b0f",
+			// "tab.border": "#282828"
+			"titleBar.inactiveBackground": "#0d1117",
+			// panel
+			// "panel.border": "#8866FF"
+			// "panelTitle.activeBorder": "#8866FF",
+			// "menu.selectionBackground": "#8866FF",
+			// "menu.selectionForeground": "#fff",
+			"menubar.selectionBorder": "#b547ff",
+		},
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"git.autofetch": true,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	},
+	"editor.rename.enablePreview": false,
+	"workbench.editor.enablePreview": false,
+	"files.autoSave": "onFocusChange",
+	"C_Cpp.autocompleteAddParentheses": true,
+	"C_Cpp.debugShortcut": false,
+	"C_Cpp.vcFormat.newLine.beforeElse": false,
+	"settingsSync.ignoredSettings": [
+		"-C_Cpp.default.compilerPath",
+		"-C_Cpp.default.compilerArgs",
+		"-C_Cpp.default.compileCommands",
+		"-C_Cpp.default.browse.path",
+		"-C_Cpp.default.browse.databaseFilename"
+	],
+	"cSpell.customDictionaries": {},
+	"C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+	"explorer.confirmDragAndDrop": false,
+	"C_Cpp.intelliSenseUpdateDelay": 500,
+	"C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+	"code-runner.runInTerminal": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"editor.linkedEditing": true,
+	// Tab autocompletion
+	"editor.tabCompletion": "on",
+	"emmet.triggerExpansionOnTab": true,
+	"[scss]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
+	"editor.quickSuggestions": {
+		"comments": "on",
+		"strings": "on"
+	},
+	"editor.suggest.localityBonus": true,
+	"terminal.integrated.smoothScrolling": true,
+	"editor.stickyScroll.enabled": true,
+	"codesnap.backgroundColor": "black",
+	"editor.accessibilitySupport": "off",
+	"auto-rename-tag.activationOnLanguage": [
+		"*"
+	],
+	"codesnap.containerPadding": "2em",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }",
+	"git.enableSmartCommit": true,
+	"typescript.suggest.paths": false,
+	"javascript.suggest.paths": false,
+	"debug.onTaskErrors": "debugAnyway",
+	"code-runner.languageIdToFileExtensionMap": {
+		"bat": ".bat",
+		"powershell": ".ps1",
+		"typescript": ".ts"
+	},
+	"editor.inlineSuggest.enabled": true,
+	"cSpell.languageSettings": [],
+	"git.confirmSync": false,
+	"C_Cpp.clang_format_sortIncludes": true,
+	"C_Cpp.formatting": "vcFormat",
+	"editor.tabSize": 3,
+	"editor.cursorSmoothCaretAnimation": "on",
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": false,
+		"c": true,
+		"javascript": true,
+		"typescript": true
+	},
+	"extensions.ignoreRecommendations": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"cSpell.userWords": [
+		"Abinash",
+		"cout",
+		"fibo",
+		"Karmakar",
+		"Leetcode",
+		"millis",
+		"minifier",
+		"nums"
+	],
+	"markdown.validate.enabled": true,
+	"codesnap.shutterAction": "copy",
+	"update.mode": "manual",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"editor.fontSize": 19.5,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"workbench.colorTheme": "One Dark Pro Darker",
+	"terminal.integrated.fontSize": 16,
+	"editor.rulers": [
+		{
+			"color": "#00ff005e",
+			"column": 120
+		}
+	],
+	"editor.selectionHighlight": false,
+	"git.ignoreRebaseWarning": true,
+	"cSpell.language": "en,lorem",
+	"cSpell.enableFiletypes": [
+		"!csharp"
+	],
+	"code-runner.executorMap": {
+		"javascript": "node",
+		"java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+		"c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+		"python": "python -u",
+		"powershell": "powershell -ExecutionPolicy ByPass -File",
+		"bat": "cmd /c",
+		"shellscript": "bash",
+		"typescript": "deno run",
+		"rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+		"sass": "sass --style expanded",
+		"scss": "scss --style expanded",
+		"less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+	},
+	"gitlens.graph.minimap.additionalTypes": [
+		"localBranches",
+		"stashes",
+		"remoteBranches",
+		"tags"
+	],
+	"[java]": {
+		"editor.defaultFormatter": "redhat.java"
+	},
+	"notebook.markup.fontSize": 13,
+	"workbench.layoutControl.enabled": false
+}
