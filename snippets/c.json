@@ -1,0 +1,42 @@
+{
+	"Main Function": {
+		"prefix": "c",
+		"body": [
+			"#include \"stdio.h\"",
+			"#include \"stdlib.h\"",
+			"#include \"string.h\"\n\n",
+			"int main(){",
+			"\t$1",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Write the main function"
+	},
+	"Stdlib Header File": {
+		"prefix": "libstd",
+		"body": "#include \"stdlib.h\"",
+		"description": "Includes stdlib.h header file"
+	},
+	"Print array Function": {
+		"prefix": "parr",
+		"body": "void printArray(int *arr, int len){\n\tint i;\n\tfor(i = 0;i < len; i++)\n\t\tprintf(\"%d \", arr[i]);\n\tprintf(\"\\n\");\n}",
+		"description": "Writes Print Array Function"
+	},
+	"Array With it's Length": {
+		"prefix": "arr",
+		"body": [
+			"int arr[] = {$1};",
+			"int len = sizeof(arr) / sizeof(arr[0]);"
+		],
+		"description": "Writes an Array"
+	},
+	"Code Description": {
+		"prefix": "codeAbinash",
+		"body": [
+			"// by @codeAbinash",
+			"// Time Complexity : O(n)",
+			"// Space Complexity : O(1)"
+		],
+		"description": "Code Description"
+	}
+}
